@@ -23,6 +23,7 @@ local Roact = strict {
 	createRef = require(script.createRef),
 	createBinding = Binding.create,
 	joinBindings = Binding.join,
+	subscribeBinding = Binding.subscribe,
 
 	Change = require(script.PropMarkers.Change),
 	Children = require(script.PropMarkers.Children),
